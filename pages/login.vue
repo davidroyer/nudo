@@ -59,9 +59,6 @@ export default {
         this.handlingSignIn = false
         this.formErrorMessage = error
         this.showFormErrorMessage = true
-
-        // eslint-disable-next-line no-console
-        console.log('🚀 ~ file: index.js ~ line 35 ~ signIn ~ error', error)
       }
 
       // await this.$store.dispatch('signIn', {
