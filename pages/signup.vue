@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Sign Up</h2>
+    <h1 class="mb-4 h2">Create a new account</h1>
     <b-button variant="primary" @click="signUp">
       Sign Up
       <b-spinner v-if="handlingSignUp" small></b-spinner>
