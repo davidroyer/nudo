@@ -32,9 +32,8 @@ html {
 
 .app-wrapper {
   min-height: 100vh;
-}
-
-.todos {
-  background: #e4e9ee;
+  background: #eceff1;
+  /* background: #dde5ea; */
+  /* background: #e4e9ee; */
 }
 </style>

@@ -126,10 +126,6 @@ export default {
   font-weight: 600;
 }
 
-.newTodo-input:focus {
-  /* background-color: #f3f3f3; */
-}
-
 ::placeholder {
   font-weight: 600;
 }

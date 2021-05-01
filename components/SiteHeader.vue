@@ -2,15 +2,15 @@
   <header class="bg-primary text-light">
     <b-container>
       <b-row align-v="center" align-h="between">
-        <b-col cols="auto" class="py-2 px-2">
+        <b-col cols="auto" class="px-2 py-2">
           <h1
-            class="site-title ml-2"
+            class="ml-2 site-title"
             @click="$router.push('/')"
             v-text="`Nudo`"
           />
         </b-col>
 
-        <b-col cols="auto" class="py-2 px-2">
+        <b-col cols="auto" class="px-2 py-2">
           <template v-if="!$store.state.user">
             <b-button variant="primary" to="/signup">Sign Up</b-button>
             <b-button variant="primary" to="/login">Login</b-button>
