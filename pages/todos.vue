@@ -118,7 +118,10 @@ export default {
 .newTodo-input {
   font-weight: 400;
   font-size: 1.25rem;
-  /* background: #f0f0f0; */
+  background-color: #f3f3f3;
+}
+
+.newTodo-input:focus {
   background-color: #f3f3f3;
 }
 
