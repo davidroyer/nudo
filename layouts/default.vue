@@ -25,4 +25,8 @@ html {
   opacity: 0;
   transform: translate(10px, 0);
 }
+
+.container {
+  max-width: 650px;
+}
 </style>
