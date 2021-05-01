@@ -1,10 +1,10 @@
 <template>
-  <b-row align-h="center">
-    <b-col md="8" lg="6">
+  <b-row align-h="center" class="mt-n5">
+    <b-col md="12">
       <b-form-input
         v-model="newTodo"
         placeholder="Add To Your Todos"
-        class="mt-4 mb-4 mt-md-5 mb-md-5"
+        class="mt-4 mb-4 newTodo-input mt-md-5 mb-md-5"
         @keyup.enter="addTodo"
       />
       <b-list-group>
@@ -107,5 +107,22 @@ export default {
 
 .bi-trash {
   cursor: pointer;
+}
+
+.list-group-item {
+  border-top-width: 1px !important;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.newTodo-input {
+  font-weight: 400;
+  font-size: 1.25rem;
+  /* background: #f0f0f0; */
+  background-color: #f3f3f3;
+}
+
+::placeholder {
+  font-weight: 300;
 }
 </style>
