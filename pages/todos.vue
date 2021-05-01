@@ -114,18 +114,22 @@ export default {
   margin-bottom: 10px;
   border-radius: 7px !important;
   border: none !important;
+  color: #2b435d;
+  /* color: #2d3f52; */
 }
 
 .newTodo-input {
-  font-weight: 500;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   height: 48px;
   border-width: 2px;
   border-radius: 7px;
   font-weight: 600;
+  /* color: #2d3f52; */
+  color: #314c67;
 }
 
 ::placeholder {
-  font-weight: 600;
+  font-weight: 300;
+  font-style: italic;
 }
 </style>
