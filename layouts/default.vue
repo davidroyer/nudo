@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-wrapper" :class="$route.name">
     <SiteHeader />
     <b-container class="mt-5">
       <Nuxt />
@@ -28,5 +28,13 @@ html {
 
 .container {
   max-width: 650px;
+}
+
+.app-wrapper {
+  min-height: 100vh;
+}
+
+.todos {
+  background: #e4e9ee;
 }
 </style>

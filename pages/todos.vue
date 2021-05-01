@@ -11,7 +11,7 @@
         <b-list-group-item
           v-for="todo in $store.state.todos"
           :key="todo.itemId"
-          class="mt-2 d-flex justify-content-between"
+          class="mt-2 shadow-sm d-flex justify-content-between"
           :class="{ completed: todo.completed }"
         >
           <b-form-checkbox
@@ -112,20 +112,25 @@ export default {
 .list-group-item {
   border-top-width: 1px !important;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 7px !important;
+  border: none !important;
 }
 
 .newTodo-input {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.15rem;
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
+  height: 48px;
+  border-width: 2px;
+  border-radius: 7px;
+  font-weight: 600;
 }
 
 .newTodo-input:focus {
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
 }
 
 ::placeholder {
-  font-weight: 300;
+  font-weight: 600;
 }
 </style>
