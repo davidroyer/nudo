@@ -34,9 +34,5 @@ html {
   min-height: 100vh;
   background: #eceff1;
   background: #f1f5f8;
-  /* background: #f6fafd; */
-
-  /* background: #dde5ea; */
-  /* background: #e4e9ee; */
 }
 </style>

@@ -119,7 +119,6 @@ export default {
 .newTodo-input {
   font-weight: 500;
   font-size: 1.15rem;
-  /* background-color: #f3f3f3; */
   height: 48px;
   border-width: 2px;
   border-radius: 7px;

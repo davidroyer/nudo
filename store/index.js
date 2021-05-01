@@ -26,23 +26,6 @@ export const actions = {
     })
   },
 
-  async signIn({ commit, dispatch }, payload) {
-    try {
-      const user = await this.$userbase.signIn(payload)
-      commit('setUser', user)
-      await dispatch('getTodos')
-    } catch (error) {
-      // eslint-disable-next-line no-console
-      console.log('🚀 ~ file: index.js ~ line 35 ~ signIn ~ error', error)
-    }
-  },
-
-  async signUp({ commit, dispatch }, payload) {
-    const user = await this.$userbase.signUp(payload)
-    commit('setUser', user)
-    await dispatch('getTodos')
-  },
-
   async signOut({ commit }) {
     await this.$userbase.signOut()
     commit('setUser', null)
