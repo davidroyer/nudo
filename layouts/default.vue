@@ -11,7 +11,7 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 html {
   -moz-osx-font-smoothing3: grayscale;
   -webkit-font-smoothing: antialiased;

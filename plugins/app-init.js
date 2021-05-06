@@ -2,12 +2,12 @@
  * Trigger code to run on app initialization like `nuxtServerInit`
  */
 
-export default async ({ $userbase, store }) => {
+export default async ({ $userbase, $config, store }) => {
   /**
    * Initialize userbase app
    */
   const session = await $userbase.init({
-    appId: 'ceb14891-f2ad-453d-9ec1-b0919bdfceab',
+    appId: $config.userbaseAppId,
     sessionLength: 8760
   })
 
