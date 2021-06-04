@@ -32,8 +32,6 @@
           <!-- </b-button> -->
         </b-list-group-item>
       </b-list-group>
-
-      <!-- <pre class="mt-5">{{ $store.state.todos }}</pre> -->
     </b-col>
   </b-row>
 </template>
@@ -116,6 +114,15 @@ export default {
   border: none !important;
   color: #2b435d;
   /* color: #2d3f52; */
+  margin-bottom: 10px;
+  border-radius: 8px !important;
+  border: none !important;
+  color: #647991;
+  color: #909fb1;
+  color: #8fa5c0;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
+  font-weight: 600;
 }
 
 .newTodo-input {
@@ -126,6 +133,25 @@ export default {
   font-weight: 600;
   /* color: #2d3f52; */
   color: #314c67;
+}
+
+.custom-controlt {
+  font-size: 1.15rem;
+}
+
+.custom-control-label {
+  padding-left: 0.5rem;
+}
+
+.custom-control-label:before,
+.custom-control-label:after {
+  top: 0.175rem;
+  left: -1.5rem;
+  width: 20px !important;
+  height: 20px;
+}
+.custom-control-label:after {
+  background: 60%/65% 70% no-repeat;
 }
 
 ::placeholder {

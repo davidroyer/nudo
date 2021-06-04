@@ -32,7 +32,7 @@ html {
 
 .app-wrapper {
   min-height: 100vh;
-  background: #eceff1;
+  padding-bottom: 40px;
   background: #f1f5f8;
 }
 </style>
