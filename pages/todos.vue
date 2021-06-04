@@ -119,7 +119,7 @@ export default {
   border: none !important;
   color: #647991;
   color: #909fb1;
-  color: #8fa5c0;
+  color: #7689a0;
   padding-top: 1.15rem;
   padding-bottom: 1.15rem;
   font-weight: 600;
