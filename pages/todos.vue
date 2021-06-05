@@ -22,14 +22,12 @@
           >
             <div class="title flex-grow-1">{{ todo.title }}</div>
           </b-form-checkbox>
-          <!-- <b-button size="sm" @click="deleteTodo(todo.itemId)"> -->
           <b-icon
             icon="trash"
             variant="danger"
             font-scale="1.3"
             @click="deleteTodo(todo.itemId)"
           />
-          <!-- </b-button> -->
         </b-list-group-item>
       </b-list-group>
     </b-col>
@@ -112,13 +110,9 @@ export default {
   margin-bottom: 10px;
   border-radius: 7px !important;
   border: none !important;
-  color: #2b435d;
-  /* color: #2d3f52; */
   margin-bottom: 10px;
   border-radius: 8px !important;
   border: none !important;
-  color: #647991;
-  color: #909fb1;
   color: #7689a0;
   padding-top: 1.15rem;
   padding-bottom: 1.15rem;
@@ -131,7 +125,6 @@ export default {
   border-width: 2px;
   border-radius: 7px;
   font-weight: 600;
-  /* color: #2d3f52; */
   color: #314c67;
 }
 

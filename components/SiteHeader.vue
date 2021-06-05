@@ -27,9 +27,3 @@
     </b-container>
   </header>
 </template>
-
-<style scoped>
-.container {
-  max-width: 650px;
-}
-</style>
